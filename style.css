@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212) ), url('forest.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+input[type=text]{
+    width: 55%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.904);
+    border-color: black;
+    color: white;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(165, 42, 42, 0.89);
+    border-color: brown;
+    color: white;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.h{
+    text-align: center;
+    border-style: solid;
+    margin: auto;
+    border-radius: 20px;
+    width: 600px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(255, 255, 0, 0.726);
+    border-color: yellow;
+    position: relative;
+}
+.b{
+    margin-top: 5px;
+}
+#result{
+    color: black;
+    font-size: 38px;
+    border-style: none;
+    border-radius: 20px;
+    padding: 20px 15px;
+    background-color: transparent;
+    width: 50%;
+    margin: auto;
+}
